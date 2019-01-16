@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Inicio</string>
+    <string name="activity2">Configurar Toast</string>
+    <string name="activity3">Configurar Notificación</string>
+    <string name="apartado1">Apartado 1</string>
+    <string name="apartado2">Apartado 2</string>
+    <string name="txtDesplazamiento">Desplazamiento del toast</string>
+    <string name="txtTexto">Texto</string>
+    <string name="txtHorizontal">Alineación Horizontal</string>
+    <string name="izquierda">Izquierda</string>
+    <string name="derecha">Derecha</string>
+    <string name="medio">Medio</string>
+    <string name="txtVertical">Alineación Vertical</string>
+    <string name="abajo">Abajo</string>
+    <string name="arriba">Arriba</string>
+    <string name="centro">Centro</string>
+    <string name="btnMostrar">Mostrar</string>
+    <string name="txtTitulo">Titulo</string>
+    <string name="txtMensaje">Texto del Mensaje</string>
+    <string name="txtTiempo">Tiempo hasta aparición(seg)</string>
+    <string name="btnEnviar">Enviar</string>
+
+
+
+
+
+</resources>
