@@ -4,8 +4,9 @@
     <string name="activity3">Configurar Notificación</string>
     <string name="apartado1">Apartado 1</string>
     <string name="apartado2">Apartado 2</string>
-    <string name="txtDesplazamiento">Desplazamiento del toast</string>
-    <string name="txtTexto">Texto</string>
+    <string name="txtDesplazamientoH">Desplazamiento Horizontal</string>
+    <string name="txtDesplazamientoV">Desplazamiento Vertical</string>
+    <string name="txtTexto">Texto Toast</string>
     <string name="txtHorizontal">Alineación Horizontal</string>
     <string name="izquierda">Izquierda</string>
     <string name="derecha">Derecha</string>

@@ -10,27 +10,49 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/txtDesplazamiento"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/txtDesplazamientoH"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/txtDesplazamiento"
+            android:text="@string/txtDesplazamientoH"
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editTextDesplazamiento"
+            android:id="@+id/editDesplazamientoH"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textSize="18sp" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtDesplazamientoV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/txtDesplazamientoV"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editDesplazamientoV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
     </LinearLayout>
 
     <LinearLayout
@@ -48,55 +70,104 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextoToast"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="text"
             android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/txtHorizontal"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/txtHorizontal"
-            android:textSize="18sp" />
+            android:layout_margin="5dp"
+            android:orientation="vertical">
 
-        <Spinner
-            android:id="@+id/SpinnerHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txtAlineacionH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtHorizontal"
+                android:textSize="18sp" />
 
-    </LinearLayout>
+            <RadioGroup
+                android:id="@+id/radGrupoH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radIzquierda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/izquierda" />
 
-        <TextView
-            android:id="@+id/txtVertical"
+                <RadioButton
+                    android:id="@+id/radMedio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/medio" />
+
+                <RadioButton
+                    android:id="@+id/radDerecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/derecha" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/txtVertical"
-            android:textSize="18sp" />
+            android:layout_margin="5dp"
+            android:orientation="vertical">
 
-        <Spinner
-            android:id="@+id/SpinnerVertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txtAlineacionV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtVertical"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radGrupoV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radArriba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/arriba" />
+
+                <RadioButton
+                    android:id="@+id/radCentro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/centro" />
+
+                <RadioButton
+                    android:id="@+id/radAbajo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/abajo" />
+            </RadioGroup>
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
