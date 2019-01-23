@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Inicio</string>
+    <string name="app_name">Practica5PMDM</string>
     <string name="activity2">Configurar Toast</string>
     <string name="activity3">Configurar Notificación</string>
     <string name="apartado1">Apartado 1</string>
@@ -20,6 +20,7 @@
     <string name="txtMensaje">Texto del Mensaje</string>
     <string name="txtTiempo">Tiempo hasta aparición(seg)</string>
     <string name="btnEnviar">Enviar</string>
+    <string name="tituloNotificacion">Configurar Notificación</string>
 
 
 
